@@ -128,6 +128,20 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ /* TABLET */
+
+ @media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .row {
+        align-items: center;
+    }
+   
+ }
+
+
+ /* MOBILE */
  @media screen and (max-width: 480px) {
     .container {
         width: 100%;
